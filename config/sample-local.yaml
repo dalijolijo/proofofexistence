@@ -39,6 +39,18 @@ chains:
         outgoingPublicKey: tpubXXXXX
         documentPrice: 50000
         feeMultiplier: 2
+  btx:
+    networks:
+      mainnet:
+        incomingPrivateKey: xprvXXXXX
+        outgoingPublicKey: xprvXXXXX
+        documentPrice: 50000
+        feeMultiplier: 2
+      testnet:
+        incomingPrivateKey: tprvXXXXX
+        outgoingPublicKey: tpubXXXXX
+        documentPrice: 50000
+        feeMultiplier: 2
 
 mail:
   from:

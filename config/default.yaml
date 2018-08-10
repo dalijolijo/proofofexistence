@@ -49,6 +49,13 @@ services:
       testnet:
         url:
         api: /api
+    btx:
+      mainnet:
+        url:
+        api: /api
+      testnet:
+        url:
+        api: /api
 
 mail:
   from: proofx@localhost
